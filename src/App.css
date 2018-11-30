@@ -8,6 +8,12 @@ html, body{
   text-align: center;
 }
 
+.messages{
+  padding: 20px;
+  overflow-y: scroll;
+  flex-grow:2;
+  background: #dedede;
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
