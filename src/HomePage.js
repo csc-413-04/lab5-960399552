@@ -30,7 +30,18 @@ class HomePage extends Component {
     }
 
     sendSomeData(){
-
+        axios(
+        {
+            method: 'POST',
+            url: {
+                message: this.state.messageValue
+            }
+        })
+        .then((res)=>{
+            console.log{res}
+        }).catch((e)=>{
+            console.log(e);
+        });
     }
 
 
