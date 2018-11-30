@@ -38,10 +38,13 @@ class HomePage extends Component {
             }
         })
         .then((res)=>{
-            console.log{res}
+            console.log(res)
         }).catch((e)=>{
             console.log(e);
         });
+        this.setState({
+            messageValue: '',
+        })
     }
 
 

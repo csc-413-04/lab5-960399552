@@ -4,7 +4,7 @@ export const doTest = () => ({
 });
 
 export const loadAllMessages = (messages) =>({
-    tyoe: 'LOAD_MESSAGES',message,
+    tyoe: 'LOAD_MESSAGES',messages,
 });
 
 export const importMessage = (message) => ({
